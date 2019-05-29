@@ -2,6 +2,7 @@ var operandoa;
 var operandob;
 var operacion;
 
+//esta funcion inicializa la interfaz de la calculadora
 function init() {
     var resultado = document.getElementById('resultado');
     var reset = document.getElementById('reset');
@@ -22,6 +23,7 @@ function init() {
     var cero = document.getElementById('cero');
 }
 
+//este es otro comentario xd
 
 uno.onclick = function (e) {
     resultado.textContent = resultado.textContent + "1";
